@@ -1,0 +1,38 @@
+.wrapper {
+  background-color: rgb(189, 218, 245);
+  min-height: 100vh;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+}
+
+.tools {
+  min-height: 100%;
+}
+
+.toolbar {
+  background-color: rgb(110, 181, 247);
+  align-self: center;
+  padding: 4px 10px;
+}
+
+#editor, #preview {
+  background-color: rgb(230, 230, 230);
+  height: 90%;
+  padding: 5px 10px;
+  overflow: auto;
+}
+
+@media (max-width: 576px) {
+  .title h1 {
+    font-size: 1.7rem;
+  }
+  .previewplace {
+    margin-top: 10px;
+  }
+  #editor, #preview {
+    height: 300px;
+  }
+}
